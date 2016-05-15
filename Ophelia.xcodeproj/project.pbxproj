@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7953A1EB1CE2840100396651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7953A1EA1CE2840100396651 /* Main.storyboard */; };
+		7955EAA71CE06408006FF1EB /* NiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7955EAA61CE06408006FF1EB /* NiceViewController.swift */; };
+		797E05C01CD9494000E28CC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797E05BF1CD9494000E28CC6 /* AppDelegate.swift */; };
+		797E05C21CD9494000E28CC6 /* SchedulingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797E05C11CD9494000E28CC6 /* SchedulingViewController.swift */; };
+		797E05C81CD9494000E28CC6 /* Ophelia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 797E05C61CD9494000E28CC6 /* Ophelia.xcdatamodeld */; };
+		797E05CD1CD9494000E28CC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797E05CB1CD9494000E28CC6 /* LaunchScreen.storyboard */; };
+		797E05D51CD94B5E00E28CC6 /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797E05D41CD94B5E00E28CC6 /* TaskTableViewCell.swift */; };
+		797E05D71CD97ABC00E28CC6 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 797E05D61CD97ABC00E28CC6 /* Media.xcassets */; };
+		797E05D91CD9812000E28CC6 /* TaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797E05D81CD9812000E28CC6 /* TaskTableViewController.swift */; };
+		797E05DB1CD9815000E28CC6 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797E05DA1CD9815000E28CC6 /* Task.swift */; };
+		79A852AE1CDE6CB100683553 /* RecomendedTaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A852AD1CDE6CB100683553 /* RecomendedTaskTableViewController.swift */; };
+		79A852B01CDE6CEE00683553 /* RecomendedTaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A852AF1CDE6CEE00683553 /* RecomendedTaskTableViewCell.swift */; };
+		79A852B21CDE6D0A00683553 /* RecomendedTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A852B11CDE6D0A00683553 /* RecomendedTask.swift */; };
+		79A852B41CDE787000683553 /* StepTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A852B31CDE787000683553 /* StepTwo.swift */; };
+		79A852B61CE01A2A00683553 /* UpdateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A852B51CE01A2A00683553 /* UpdateTaskViewController.swift */; };
+		79A852B81CE0398400683553 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A852B71CE0398400683553 /* Extensions.swift */; };
+		79D6A9EA1CDD3FCF00476AE7 /* StepZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D6A9E91CDD3FCF00476AE7 /* StepZero.swift */; };
+		79D6A9EC1CDD40CA00476AE7 /* OnboardingPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D6A9EB1CDD40CA00476AE7 /* OnboardingPager.swift */; };
+		79D6A9EE1CDD426F00476AE7 /* StepOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D6A9ED1CDD426F00476AE7 /* StepOne.swift */; };
+		79E89A771CDBEC5800BB65CB /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E89A761CDBEC5800BB65CB /* TaskList.swift */; };
+		79FD4F2B1CD9BEF9007D66C0 /* BTNavigationDropdownMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 79FD4F291CD9BEF9007D66C0 /* BTNavigationDropdownMenu.bundle */; };
+		79FD4F2C1CD9BEF9007D66C0 /* BTNavigationDropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FD4F2A1CD9BEF9007D66C0 /* BTNavigationDropdownMenu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7953A1EA1CE2840100396651 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7955EAA61CE06408006FF1EB /* NiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NiceViewController.swift; sourceTree = "<group>"; };
+		797E05BC1CD9494000E28CC6 /* Ophelia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ophelia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		797E05BF1CD9494000E28CC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		797E05C11CD9494000E28CC6 /* SchedulingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulingViewController.swift; sourceTree = "<group>"; };
+		797E05C71CD9494000E28CC6 /* Ophelia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ophelia.xcdatamodel; sourceTree = "<group>"; };
+		797E05CC1CD9494000E28CC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		797E05CE1CD9494000E28CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		797E05D41CD94B5E00E28CC6 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		797E05D61CD97ABC00E28CC6 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../Media.xcassets; sourceTree = "<group>"; };
+		797E05D81CD9812000E28CC6 /* TaskTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableViewController.swift; sourceTree = "<group>"; };
+		797E05DA1CD9815000E28CC6 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		79A852AD1CDE6CB100683553 /* RecomendedTaskTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecomendedTaskTableViewController.swift; sourceTree = "<group>"; };
+		79A852AF1CDE6CEE00683553 /* RecomendedTaskTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecomendedTaskTableViewCell.swift; sourceTree = "<group>"; };
+		79A852B11CDE6D0A00683553 /* RecomendedTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecomendedTask.swift; sourceTree = "<group>"; };
+		79A852B31CDE787000683553 /* StepTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepTwo.swift; sourceTree = "<group>"; };
+		79A852B51CE01A2A00683553 /* UpdateTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateTaskViewController.swift; sourceTree = "<group>"; };
+		79A852B71CE0398400683553 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		79D6A9E91CDD3FCF00476AE7 /* StepZero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepZero.swift; sourceTree = "<group>"; };
+		79D6A9EB1CDD40CA00476AE7 /* OnboardingPager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingPager.swift; sourceTree = "<group>"; };
+		79D6A9ED1CDD426F00476AE7 /* StepOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepOne.swift; sourceTree = "<group>"; };
+		79E89A761CDBEC5800BB65CB /* TaskList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
+		79FD4F291CD9BEF9007D66C0 /* BTNavigationDropdownMenu.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BTNavigationDropdownMenu.bundle; sourceTree = "<group>"; };
+		79FD4F2A1CD9BEF9007D66C0 /* BTNavigationDropdownMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTNavigationDropdownMenu.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		797E05B91CD9494000E28CC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		797E05B31CD9494000E28CC6 = {
+			isa = PBXGroup;
+			children = (
+				797E05BE1CD9494000E28CC6 /* Ophelia */,
+				797E05BD1CD9494000E28CC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		797E05BD1CD9494000E28CC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				797E05BC1CD9494000E28CC6 /* Ophelia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		797E05BE1CD9494000E28CC6 /* Ophelia */ = {
+			isa = PBXGroup;
+			children = (
+				79FD4F281CD9BEF9007D66C0 /* Source */,
+				797E05D61CD97ABC00E28CC6 /* Media.xcassets */,
+				797E05BF1CD9494000E28CC6 /* AppDelegate.swift */,
+				797E05CB1CD9494000E28CC6 /* LaunchScreen.storyboard */,
+				797E05CE1CD9494000E28CC6 /* Info.plist */,
+				797E05C61CD9494000E28CC6 /* Ophelia.xcdatamodeld */,
+				797E05C11CD9494000E28CC6 /* SchedulingViewController.swift */,
+				797E05D41CD94B5E00E28CC6 /* TaskTableViewCell.swift */,
+				797E05D81CD9812000E28CC6 /* TaskTableViewController.swift */,
+				797E05DA1CD9815000E28CC6 /* Task.swift */,
+				79E89A761CDBEC5800BB65CB /* TaskList.swift */,
+				79A852AF1CDE6CEE00683553 /* RecomendedTaskTableViewCell.swift */,
+				79A852AD1CDE6CB100683553 /* RecomendedTaskTableViewController.swift */,
+				79A852B11CDE6D0A00683553 /* RecomendedTask.swift */,
+				79A852B51CE01A2A00683553 /* UpdateTaskViewController.swift */,
+				7955EAA61CE06408006FF1EB /* NiceViewController.swift */,
+				79D6A9EB1CDD40CA00476AE7 /* OnboardingPager.swift */,
+				79D6A9E91CDD3FCF00476AE7 /* StepZero.swift */,
+				79D6A9ED1CDD426F00476AE7 /* StepOne.swift */,
+				79A852B31CDE787000683553 /* StepTwo.swift */,
+				79A852B71CE0398400683553 /* Extensions.swift */,
+				7953A1EA1CE2840100396651 /* Main.storyboard */,
+			);
+			path = Ophelia;
+			sourceTree = "<group>";
+		};
+		79FD4F281CD9BEF9007D66C0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				79FD4F291CD9BEF9007D66C0 /* BTNavigationDropdownMenu.bundle */,
+				79FD4F2A1CD9BEF9007D66C0 /* BTNavigationDropdownMenu.swift */,
+			);
+			name = Source;
+			path = Source/Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		797E05BB1CD9494000E28CC6 /* Ophelia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 797E05D11CD9494000E28CC6 /* Build configuration list for PBXNativeTarget "Ophelia" */;
+			buildPhases = (
+				797E05B81CD9494000E28CC6 /* Sources */,
+				797E05B91CD9494000E28CC6 /* Frameworks */,
+				797E05BA1CD9494000E28CC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ophelia;
+			productName = Ophelia;
+			productReference = 797E05BC1CD9494000E28CC6 /* Ophelia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		797E05B41CD9494000E28CC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Chase Swanstrom";
+				TargetAttributes = {
+					797E05BB1CD9494000E28CC6 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 453CJ495T8;
+					};
+				};
+			};
+			buildConfigurationList = 797E05B71CD9494000E28CC6 /* Build configuration list for PBXProject "Ophelia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 797E05B31CD9494000E28CC6;
+			productRefGroup = 797E05BD1CD9494000E28CC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				797E05BB1CD9494000E28CC6 /* Ophelia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		797E05BA1CD9494000E28CC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797E05CD1CD9494000E28CC6 /* LaunchScreen.storyboard in Resources */,
+				7953A1EB1CE2840100396651 /* Main.storyboard in Resources */,
+				797E05D71CD97ABC00E28CC6 /* Media.xcassets in Resources */,
+				79FD4F2B1CD9BEF9007D66C0 /* BTNavigationDropdownMenu.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		797E05B81CD9494000E28CC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A852B41CDE787000683553 /* StepTwo.swift in Sources */,
+				79E89A771CDBEC5800BB65CB /* TaskList.swift in Sources */,
+				79A852B01CDE6CEE00683553 /* RecomendedTaskTableViewCell.swift in Sources */,
+				79A852B21CDE6D0A00683553 /* RecomendedTask.swift in Sources */,
+				797E05D91CD9812000E28CC6 /* TaskTableViewController.swift in Sources */,
+				79D6A9EC1CDD40CA00476AE7 /* OnboardingPager.swift in Sources */,
+				797E05D51CD94B5E00E28CC6 /* TaskTableViewCell.swift in Sources */,
+				797E05C21CD9494000E28CC6 /* SchedulingViewController.swift in Sources */,
+				797E05C01CD9494000E28CC6 /* AppDelegate.swift in Sources */,
+				79D6A9EA1CDD3FCF00476AE7 /* StepZero.swift in Sources */,
+				79D6A9EE1CDD426F00476AE7 /* StepOne.swift in Sources */,
+				7955EAA71CE06408006FF1EB /* NiceViewController.swift in Sources */,
+				79FD4F2C1CD9BEF9007D66C0 /* BTNavigationDropdownMenu.swift in Sources */,
+				797E05DB1CD9815000E28CC6 /* Task.swift in Sources */,
+				79A852AE1CDE6CB100683553 /* RecomendedTaskTableViewController.swift in Sources */,
+				79A852B81CE0398400683553 /* Extensions.swift in Sources */,
+				79A852B61CE01A2A00683553 /* UpdateTaskViewController.swift in Sources */,
+				797E05C81CD9494000E28CC6 /* Ophelia.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		797E05CB1CD9494000E28CC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				797E05CC1CD9494000E28CC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		797E05CF1CD9494000E28CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		797E05D01CD9494000E28CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		797E05D21CD9494000E28CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Ophelia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaseswanstrom.ophelia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		797E05D31CD9494000E28CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Ophelia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaseswanstrom.ophelia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		797E05B71CD9494000E28CC6 /* Build configuration list for PBXProject "Ophelia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797E05CF1CD9494000E28CC6 /* Debug */,
+				797E05D01CD9494000E28CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		797E05D11CD9494000E28CC6 /* Build configuration list for PBXNativeTarget "Ophelia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797E05D21CD9494000E28CC6 /* Debug */,
+				797E05D31CD9494000E28CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		797E05C61CD9494000E28CC6 /* Ophelia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				797E05C71CD9494000E28CC6 /* Ophelia.xcdatamodel */,
+			);
+			currentVersion = 797E05C71CD9494000E28CC6 /* Ophelia.xcdatamodel */;
+			path = Ophelia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 797E05B41CD9494000E28CC6 /* Project object */;
+}
